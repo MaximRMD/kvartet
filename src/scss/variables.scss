@@ -29,11 +29,11 @@ $mobile-width-only: 659px;
 $mobile-width: 320px;
 
 //mobile mixin
-@mixin not-desktop {
-  @media screen and (max-width: 1199px) {
-    @content;
-  }
-}
+// @mixin not-desktop {
+//   @media screen and (max-width: 1199px) {
+//     @content;
+//   }
+// }
 
 @mixin desktop {
   @media screen and (min-width: $desktop-width) {
@@ -42,7 +42,7 @@ $mobile-width: 320px;
 }
 
 @mixin not-desktop {
-  @media screen and (min-width: 1920px) {
+  @media screen and (min-width: 1440px) {
     @content;
   }
 }
