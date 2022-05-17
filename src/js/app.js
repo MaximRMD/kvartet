@@ -9,6 +9,6 @@ flsSmoth.smooth();
 // import * as flsSwipe from "./modules/swiper.js";
 // flsSwipe.swipe();
 
-import * as flsMaps from "./modules/map.js";
+import * as flsMap from "./modules/map.js";
 
-flsMaps.map();
+flsMap.map();
