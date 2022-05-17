@@ -1,0 +1,32 @@
+.footer__paragraph {
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 136%;
+}
+
+.footer__subparagraph {
+    font-weight: 600;
+    color: $grey-dark;
+}
+
+.footer__block-contact {
+    margin: 0 0 34px 0;
+}
+
+.footer__blocks-contacts {
+    max-width: 360px;
+}
+
+.footer__title {
+    margin-bottom: 29px;
+}
+
+.footer__map {
+    width: 500px;
+    height: 500px;
+}
+
+.footer__subparagraph--size {
+    font-size: 15px;
+    text-decoration-line: underline;
+}

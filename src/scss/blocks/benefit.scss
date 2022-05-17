@@ -1,0 +1,36 @@
+.benefit__list {
+    max-width: 904px;
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 27px;
+    flex-wrap: nowrap;
+}
+
+.benefit__img {
+    margin-right: 44px;
+}
+
+.benefit__title {
+    max-width: 848px;
+    margin: 0 auto;
+}
+
+.benefit__befor {
+    border-bottom: 1px solid $green-dark;
+    margin: 20px 0;
+}
+
+.benefit__svg-block {
+    margin: 36px 0;
+}
+
+.benefit {
+    margin-bottom: 177px;
+}
+
+.benefit__item {
+    max-width: 940px;
+    margin: 0 auto;
+}

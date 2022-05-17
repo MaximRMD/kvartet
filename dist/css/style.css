@@ -495,6 +495,11 @@ form.main__form-application {
 .offers__block-img {
   background-color: #dee2e6;
   width: 75%;
+  display: flex;
+  align-items: center;
+  position: relative;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .offers__block-span {
@@ -522,10 +527,8 @@ form.main__form-application {
 }
 
 .offers__block-text {
-  position: relative;
   width: 100%;
   max-width: 272px;
-  margin: 0 auto 36px;
 }
 @media screen and (min-width: 768px) {
   .offers__block-text {
@@ -545,6 +548,7 @@ form.main__form-application {
   justify-content: center;
   max-width: 628px;
   margin: 0 auto;
+  padding: 36px 0;
 }
 
 .offers__blocks {
@@ -554,19 +558,22 @@ form.main__form-application {
   margin-bottom: 120px;
   flex-direction: column;
 }
-@media screen and (min-width: 768px) {
-  .offers__blocks {
-    flex-direction: row;
-  }
-}
 @media screen and (min-width: 1024px) {
   .offers__blocks {
     align-items: stretch;
+    flex-direction: row;
   }
 }
 
 .offers__block-text--margin {
   margin-bottom: 0;
+}
+
+.offers__inside-paragraph {
+  max-width: 128px;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
 }
 
 .footer__paragraph {

@@ -1,0 +1,45 @@
+.instructions__title {
+    margin-bottom: 34px;
+}
+
+.instructions__list {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 312px;
+    margin: 0 auto;
+
+    @include tablets {
+        flex-direction: row;
+        align-items: center;
+        max-width: initial;
+        margin: initial;
+    }
+}
+
+.instructions__item {
+    margin-right: 50px;
+    line-height: 136%;
+    max-width: 270px;
+    font-weight: 500;
+    margin-bottom: 15px;
+    @include tablets {
+        margin-bottom: initial;
+    }
+
+    &:nth-last-of-type(1) {
+        margin: 0;
+    }
+}
+
+.instructions__span {
+    margin-right: 50px;
+    margin-bottom: 15px;
+    @include tablets {
+        margin-bottom: initial;
+    }
+}
+
+.instructions {
+    margin-bottom: 142px;
+}

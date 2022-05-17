@@ -1,0 +1,131 @@
+.offers__title {
+    max-width: 974px;
+    margin: 0 auto 48px auto;
+}
+
+.offers__title-blocks {
+    font-weight: 700;
+    font-size: 25px;
+    max-width: 572px;
+    margin: 0 auto 38px auto;
+    line-height: 136%;
+}
+
+.offers__span {
+    color: $green-dark;
+    font-weight: 700;
+}
+
+.offers__paragraph {
+    max-width: 488px;
+    font-weight: 600;
+    line-height: 136%;
+    margin-bottom: 28px;
+}
+
+.offers__item {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 136%;
+    color: $grey-dark;
+    margin-bottom: 5px;
+}
+
+.offers__item--color {
+    color: $green-dark;
+    font-weight: 800;
+}
+
+.offers__item-wrap {
+    margin-bottom: 23px;
+    &:nth-last-of-type(1) {
+        margin-bottom: 30px;
+    }
+}
+
+.offers__button {
+    padding: 8px 86px;
+    display: -webkit-inline-box;
+}
+.offers__block-img {
+    background-color: $background-color-grey;
+    width: 75%;
+    display: flex;
+    align-items: center;
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.offers__block-span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 136%;
+    color: $white;
+    background-color: $green-dark;
+    padding: 8px;
+    width: 100%;
+    @include tablets {
+        width: initial;
+    }
+
+    @include desktop {
+        padding: 8px 44px;
+        width: initial;
+    }
+}
+
+.offers__block-text {
+    width: 100%;
+    max-width: 272px;
+
+    @include tablets {
+        max-width: initial;
+        margin-right: 44px;
+    }
+
+    @include desktop {
+        width: initial;
+    }
+}
+
+.offers__wrap-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    // padding: 90px 0 81px 0;
+    max-width: 628px;
+    margin: 0 auto;
+    padding: 36px 0;
+}
+
+.offers__blocks {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    margin-bottom: 120px;
+    flex-direction: column;
+
+    // @include tablets {
+    //     flex-direction: row;
+    // }
+
+    @include desktop {
+        align-items: stretch;
+        flex-direction: row;
+    }
+}
+
+.offers__block-text--margin {
+    margin-bottom: 0;
+}
+
+.offers__inside-paragraph {
+    max-width: 128px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+}
